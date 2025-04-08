@@ -1,0 +1,159 @@
+.jsTopOuter {
+  margin: 0 auto;
+  border: 1px solid black;
+  height: 100%;
+  overflow: hidden;
+  border-radius: 10px;
+  text-align: center;
+  padding: 20px;
+  background: rgb(236, 235, 241);
+  background: linear-gradient(180deg, rgb(236, 235, 241) 0%, rgb(255, 255, 255) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ecebf1",endColorstr="#ffffff",GradientType=1);
+  position: relative;
+}
+.jsTopOuter .payingbill h6 {
+  color: #616266;
+  font-weight: 600;
+  text-transform: uppercase;
+  font-size: 14px;
+  letter-spacing: 2px;
+  position: relative;
+  display: inline-block;
+  margin-bottom: 15px;
+}
+.jsTopOuter .payingbill h6:before {
+  content: "";
+  position: absolute;
+  width: 50px;
+  height: 3px;
+  background: linear-gradient(to right, black, rgba(0, 0, 0, 0));
+  left: -60px;
+  top: 8px;
+  rotate: 180deg;
+}
+.jsTopOuter .payingbill h6:after {
+  content: "";
+  position: absolute;
+  width: 50px;
+  height: 3px;
+  background: linear-gradient(to right, black, rgba(0, 0, 0, 0));
+  right: -60px;
+  top: 8px;
+}
+.jsTopOuter .payingbill h3 {
+  font-size: 24px;
+  color: black;
+  margin-bottom: 5px;
+}
+.jsTopOuter .payingbill span {
+  color: #131313;
+  font-size: 20px;
+  display: block;
+}
+.jsTopOuter .payingbill .price {
+  max-width: 400px;
+  margin: 35px auto 5px;
+}
+.jsTopOuter .payingbill .price input:not([type=submit], [type=checkbox], [type=radio]) {
+  width: 90%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  background-color: transparent;
+  border: none;
+  border-bottom: 2px solid lightgrey;
+  -moz-appearance: textfield;
+  color: #686868;
+  font-size: 35px;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 20px;
+  /* Chrome, Safari, Edge, Opera */
+}
+.jsTopOuter .payingbill .price input:not([type=submit], [type=checkbox], [type=radio])::-webkit-outer-spin-button, .jsTopOuter .payingbill .price input:not([type=submit], [type=checkbox], [type=radio])::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+.jsTopOuter .payingbill .price input:not([type=submit], [type=checkbox], [type=radio])::-moz-placeholder {
+  opacity: 0.5;
+}
+.jsTopOuter .payingbill .price input:not([type=submit], [type=checkbox], [type=radio])::placeholder {
+  opacity: 0.5;
+}
+.jsTopOuter .discount {
+  max-width: 100%;
+  margin: 35px auto 0;
+  border-radius: 20px;
+  box-shadow: 0px 0px 10px 0px rgb(255, 211, 191);
+  background-color: #fff;
+  padding: 30px 20px 20px;
+}
+.jsTopOuter .discount .dstop {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  text-align: left;
+  margin-bottom: 30px;
+}
+.jsTopOuter .discount .dstop h6 {
+  font-size: 16px;
+  color: lightgray;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+.jsTopOuter .discount .dstop .offsection,
+.jsTopOuter .discount .dstop .slides {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.jsTopOuter .discount .dstop .offsection img,
+.jsTopOuter .discount .dstop .slides img {
+  width: 40px;
+}
+.jsTopOuter .discount .dstop .text h5 {
+  font-size: 18px;
+  font-weight: 500;
+}
+.jsTopOuter .discount .dstop .text span {
+  color: grey;
+}
+.jsTopOuter .discount .dsbot {
+  border-top: 1px solid lightgray;
+  padding-top: 10px;
+  color: grey;
+}
+.jsTopOuter .showresult {
+  margin-top: 30px;
+  padding-bottom: 100px;
+}
+.jsTopOuter .showresult h4 {
+  font-size: 18px;
+  font-weight: 500;
+}
+.jsTopOuter .showresult h3 {
+  color: orangered;
+  font-weight: 600;
+  font-size: 25px;
+  padding: 10px 0;
+}
+.jsTopOuter .showresult h3 span {
+  font-size: 25px;
+  color: orangered;
+}
+.jsTopOuter .showresult span {
+  color: grey;
+  font-size: 14px;
+}
+.jsTopOuter button {
+  width: calc(100% - 40px);
+  position: absolute;
+  left: 20px;
+  right: 20px;
+  bottom: 20px;
+  padding: 15px;
+  font-size: 18px;
+  font-weight: 600;
+  color: grey;
+  border: none;
+  background-color: lightgray;
+}/*# sourceMappingURL=JSTopCalculator.css.map */
