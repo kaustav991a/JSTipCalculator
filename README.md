@@ -1,14 +1,47 @@
-# React + Vite
+# 💰 JS Tip Calculator
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple and elegant React-based Tip Calculator that helps users calculate the tip amount, apply discounts, and split the final bill among friends.
 
-Currently, two official plugins are available:
+![JS Tip Calculator Screenshot](./preview.png) <!-- Optional: Replace with actual screenshot path -->
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## ✨ Features
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-# JSTipCalculator
-# JSTipCalculator
+- 💸 Tip calculation based on percentage
+- 🔖 Discount logic included
+- 🎁 Cashback functionality
+- 👥 Split final amount among friends
+- 🧮 Live updates on all calculations
+- 🧊 Stylish UI with glassmorphism design
+
+---
+
+## 🛠️ Built With
+
+- React (Functional Components + Hooks)
+- JavaScript (ES6+)
+- SCSS (Modular Styling)
+
+---
+
+## 🚀 Getting Started
+
+### 1. Clone the Repository
+
+```bash
+git clone https://github.com/your-username/js-tip-calculator.git
+cd js-tip-calculator
+```
+
+### 2. Install dependencies
+```bash
+npm install
+```
+
+### 3. Run locally
+```bash
+npm start
+```
+
+Made with ❤️ by Kaustav
